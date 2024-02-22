@@ -1,5 +1,6 @@
-const add = function() {
-	
+const add = function(num1, num2) {
+  const addThese = [num1, num2];
+  return addThese.reduce((total, currentItem) => total + currentItem, 0);
 };
 
 const subtract = function() {
